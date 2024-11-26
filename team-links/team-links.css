@@ -1,0 +1,28 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 20px;
+    line-height: 1.0;
+}
+
+team-list-nav {
+    list-style-type: none;
+    padding: 0;
+}
+
+team-list-nav li {
+    padding: 10x;
+    margin: 5px 0;
+    border-radius: 5px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+team-list nav li a {
+    text-decoration: none;
+}
+
+team-list-nav li span {
+    font-size: 0.9em;
+    color: #555;
+}
